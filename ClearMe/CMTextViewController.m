@@ -28,7 +28,7 @@
 
 
 - (IBAction)clearButtonPressed:(id)sender {
-    NSLog(@"Hello");
+    NSLog(@"");
     
 }
 
@@ -38,14 +38,16 @@
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
     
-    return NO;
+    [self.textField resignFirstResponder]; // makes keyboard move away
+    return YES;
 }
 
 
 
 -(BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
     
-    return NO;
+    NSLog(@"%@", self.textField.text);
+    return YES;
 }
 
 
