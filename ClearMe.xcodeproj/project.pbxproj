@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6395557E19C90EDD009493BA /* CMTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6395557C19C90EDD009493BA /* CMTextViewController.m */; };
+		6395557F19C90EDD009493BA /* CMTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6395557D19C90EDD009493BA /* CMTextViewController.xib */; };
 		711A502A19386CFB005642EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711A502919386CFB005642EF /* Foundation.framework */; };
 		711A502C19386CFB005642EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711A502B19386CFB005642EF /* CoreGraphics.framework */; };
 		711A502E19386CFB005642EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711A502D19386CFB005642EF /* UIKit.framework */; };
@@ -32,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6395557B19C90EDD009493BA /* CMTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTextViewController.h; sourceTree = "<group>"; };
+		6395557C19C90EDD009493BA /* CMTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTextViewController.m; sourceTree = "<group>"; };
+		6395557D19C90EDD009493BA /* CMTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CMTextViewController.xib; sourceTree = "<group>"; };
 		711A502619386CFB005642EF /* ClearMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClearMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		711A502919386CFB005642EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		711A502B19386CFB005642EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -109,6 +114,9 @@
 			children = (
 				711A503819386CFB005642EF /* CMAppDelegate.h */,
 				711A503919386CFB005642EF /* CMAppDelegate.m */,
+				6395557B19C90EDD009493BA /* CMTextViewController.h */,
+				6395557C19C90EDD009493BA /* CMTextViewController.m */,
+				6395557D19C90EDD009493BA /* CMTextViewController.xib */,
 				711A503B19386CFB005642EF /* Images.xcassets */,
 				711A503019386CFB005642EF /* Supporting Files */,
 			);
@@ -221,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				711A503419386CFB005642EF /* InfoPlist.strings in Resources */,
+				6395557F19C90EDD009493BA /* CMTextViewController.xib in Resources */,
 				711A503C19386CFB005642EF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6395557E19C90EDD009493BA /* CMTextViewController.m in Sources */,
 				711A503A19386CFB005642EF /* CMAppDelegate.m in Sources */,
 				711A503619386CFB005642EF /* main.m in Sources */,
 			);
@@ -438,6 +448,7 @@
 				711A505419386CFC005642EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		711A505519386CFC005642EF /* Build configuration list for PBXNativeTarget "ClearMeTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +457,7 @@
 				711A505719386CFC005642EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
